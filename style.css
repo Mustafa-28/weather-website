@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin: 0;
+}
+#cityInput{
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.515);
+    font-size: 1.3rem;
+    margin: 10px;
+}
+#submit{
+    color: white;
+    background-color: hsl(120, 84%, 36%);
+    font-size: 1.4rem;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: hsl(120, 84%, 46%);
+}
+#weather-card{
+    background: linear-gradient(180deg, rgba(1, 206, 252, 0.778), rgba(255, 166, 0, 0.632));
+    border:2px solid black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.586);
+}
+.city{
+    color: hsla(0, 0%, 0%, 0.793);
+    font-size: 3rem;
+    margin:10;
+}
+.temp{
+    font-size: 3rem;
+    margin: 0px;
+}
+.humidity{
+    font-size: 1.2rem;
+}
+.emoji{
+    font-size: 6rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.erorrMessage{
+    font-size: 1.5rem;
+}
+.description{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
